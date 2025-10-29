@@ -23,7 +23,7 @@ API_HASH = "6b66c879f765a0662a3ad030f8ae45f7"
 BOT_TOKEN = "7534898778:AAHoiHvNvFKu0xZu1jJQikpL2ydRSU4MZII"
 
 # Only these user IDs can trigger /setchannel or upload
-ALLOWED_USER_IDS = [-1002957640640]
+ALLOWED_USER_IDS = [7425217769]
 
 app = Client(
     "simple_subject_bot",
