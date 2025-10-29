@@ -31,10 +31,10 @@ RUN curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp \
 RUN python3 -m venv /venv && /venv/bin/pip install --no-cache-dir -r requirements.txt
 
 ENV PATH="/usr/local/bin:/venv/bin:$PATH"
-ENV API_ID="26909380"
-ENV API_HASH="498821722f7fa36cda9600e039a3640c"
-ENV BOT_TOKEN="7239301864"
-ENV ALLOWED_USER_IDS="6873273483,7310262552"
+ENV API_ID="25134698"
+ENV API_HASH="6b66c879f765a0662a3ad030f8ae45f7"
+ENV BOT_TOKEN="7534898778:AAHoiHvNvFKu0xZu1jJQikpL2ydRSU4MZII"
+ENV ALLOWED_USER_IDS="7425217769"
 
 # Sync time then start the bot
 CMD gunicorn app:app & python3 main.py
